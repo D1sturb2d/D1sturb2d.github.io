@@ -1,0 +1,15 @@
+.row1-heading {
+    background-color: #1b1c1d;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 300%;
+    text-align: center;
+    padding: 10%;
+}
+.row1-tagline {
+    font-size: 40%;
+    font-weight: 200;
+    color: aliceblue;
+    position: relative;
+    top: -15%;
+}

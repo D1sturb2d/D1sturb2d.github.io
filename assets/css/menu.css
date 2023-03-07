@@ -1,0 +1,217 @@
+.section-top-header {
+    padding-bottom: 50px;
+}
+
+#gnb {
+  background: rgba(229,235,244,0.8);
+  backdrop-filter: blur(20px);
+  border: 0;
+  padding: 10px 0;
+}
+
+/**************/
+/* 메인 메뉴 */
+/**************/
+.menu {
+    float: left;
+    margin: 0;
+    width: 85%;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.full-menu {
+  height: 100%;
+}
+
+.menu > li {
+  display: block;
+  padding: 0 20px;
+  float: left;
+}
+
+.menu > .logo, .menu > .full-menu {
+  line-height: 42px;
+}
+
+.menu .link {
+  display: block;
+  color: black;
+  font-weight: bolder;
+}
+
+.menu .active .link,
+.menu .link:hover {
+  color: #2540b5;
+}
+
+.menu li > ul {
+  position: absolute;
+  padding-top: 30px;
+  height: 281px;
+  display: none;
+}
+
+.menu li > ul > li {
+  display: block;
+  line-height: 1.4em;
+  margin-bottom: 16px;
+}
+
+.menu li > ul > li > a {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+
+.menu li > ul > li > a:focus,
+.menu li > ul > li > a:hover {
+  color: #00bbc7;
+}
+
+.sub-menu-wrap {
+  text-align: left;
+  padding-top: 18px;
+}
+.sub-menu-wrap ul {
+  line-height: 2;
+}
+
+/**************/
+/* 프로필 메뉴 */
+/**************/
+.profile-menu,
+.login-menu {
+  float: right;
+  margin: 0;
+  width: 15%;
+}
+
+.profile-menu .right-menu,
+.login-menu .right-menu {
+  float: right;
+  text-align: center;
+}
+.profile-menu > li,
+.login-menu > li {
+  display: block;
+  padding: 0 20px;
+  float: left;
+}
+.menu > .profile,
+.menu > .login {
+  line-height: 42px;
+}
+.sub-profile-menu-wrap {
+  display: none;
+}
+
+
+.ddmenu {
+  position: absolute;
+  right: 0;
+  background: white;
+  padding: 20px 10px 20px 10px;
+  border-radius: 3px;
+  width: 400px;
+}
+
+.top-box {
+  padding-bottom: 25px;
+}
+
+.profilem-img {
+  width: 100px;
+  height: 100px;
+}
+
+.bottom-btn {
+  text-align: center;
+  width: 100%;
+}
+
+.bottom-btn.btn.blue {
+  background: blue;
+}
+
+.bottom-btn.btn.red {
+  background: red;
+}
+
+.bottom-btn.btn.blue,
+.bottom-btn.btn.red {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .mobilemenu, .sidebar.active, .overlay.active {
+    display: none;
+  }
+
+  .pcmenu {
+    display: "block"
+  }
+}
+
+@media (max-width: 767px) {
+  .pcmenu {
+    display: none;
+  }
+
+  .ddmenu {
+    display: "none"
+  }
+
+  body {
+    overflow: "hidden"
+  }
+
+  .navbar-mobileBtn,
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    display: block;
+    font-size: 24px;
+  }
+  
+  .navbar-brand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 425px) {
+  .navbar-mobileBtn, .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .ddmenu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .navbar-brand {
+    text-indent: -9999px;
+    background-image: url('../images/ico/D1sturb2d.Logo.png');
+    background-size: 35px 50px;
+    background-repeat: no-repeat;
+  }
+  .footer-logo {
+    text-indent: -9999px;
+    background-image: url('../images/ico/D1sturb2d.Logo.png');
+    background-size: 35px 50px;
+    background-repeat: no-repeat;
+  }
+}
