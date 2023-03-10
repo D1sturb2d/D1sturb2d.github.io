@@ -3,17 +3,17 @@
   "name": "D1sturb2d",
   "icons": [
     {
-      "src": "/assets/images/ico/D1sturb2d.Logo.ico",
+      "src": "/assets/images/ico.D1sturb2d.Logo.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "/assets/images/ico/D1sturb2d.Logo.ico",
+      "src": "/assets/images/ico.D1sturb2d.Logo.ico",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/images/ico/D1sturb2d.Logo.ico",
+      "src": "/assets/images/ico.D1sturb2d.Logo.ico",
       "type": "image/png",
       "sizes": "512x512"
     }
